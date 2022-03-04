@@ -1,0 +1,66 @@
+
+/* utility classes */
+
+.btn{
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: black;
+    color: wheat;
+    background-color: rgb(173, 64, 21);
+    cursor: pointer;
+    padding: 2%;
+    padding-left:3%;
+    padding-right:3%;
+    font-size:1em;
+    /* margin-left: 220px; */
+}
+.btn:hover{
+    color:white;
+}
+.btn a{
+    text-decoration: none;
+    color: white
+}
+
+.btn:hover{
+    background-color: rgb(79, 206, 79);
+    color: rgb(255, 255, 255);
+}
+/* we can give two class to one objet  */
+.centre{
+    text-align: center;
+}
+.h-primary{
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-weight: 800;
+    font-size:4em;
+    /* margin-top: 1%; */
+}
+.h-secondary{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+footer{
+    background-color: black;
+    color: white;
+    /* height: 4vh; */
+    /* margin-top: 70px; */
+}
+@media(max-width:500px){
+    .h-primary{
+        font-size:2em
+    }
+    .h-secondary{
+        
+    }
+}
+@media(max-width:1000px){
+    .h-primary{
+        font-size:3em
+    }
+    .h-secondary{
+
+    }
+}

@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Contact form */
+
+#faq .h-primary{
+    font-size: 2.5em;
+    /* display:inline-block; */
+    margin-top: -60vh;
+    margin-left:51vw;
+}
+
+#faq  li{
+    font-size:1.5rem;
+    list-style: none;
+    /* display:inline-block; */
+    /* margin-top: -63vh; */
+    margin-left: 65vw;
+    margin-top: 2vh;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background:url(img/cvcn.gif) no-repeat center center/cover;
+    width: 99.8vw;
+    height: 146vh;
+    z-index: -2;
+    opacity: 0.4;
+    margin-top: -10vh;
+    /* margin-bottom: 10vh; */
+    /* border-radius: 22px; */
+}
+#contact .h-primary{
+    /* color: white; */
+    font-family: 'Bree Serif', serif;
+    margin-top: 6vh;
+}
+#contact label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    color: rgb(17, 16, 16);
+    overflow: hidden;
+    margin-left: 6vw;
+    margin-top: 1vh;
+}
+
+#contact input{
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    width: 30vw;
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    overflow: hidden;
+    margin-left: 6vw;
+
+}
+
+#contact label a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    color: rgb(17, 16, 16);
+    overflow: hidden;
+
+    text-decoration: none;
+}
+#contact img{
+    height:4vh;
+    width:4vh;
+    margin-bottom:-1vh;
+
+}
+#contact button{
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: black;
+    color: wheat;
+    background-color: rgb(173, 64, 21);
+    cursor: pointer;
+    padding: 0;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    font-size:1.5em;
+    height:8vh;
+    width: 10vw;
+    margin-left: 14vw;
+    margin-top: 2vh;
+
+}
+
+
+#contact textarea{
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    width: 30vw;
+    font-family: 'Bree Serif', serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 6vw;
+}
+  .footer{
+      margin-top: 40vh;
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+
+    #contact::before{
+
+        width: 99.8vw;
+        height: 145vh;
+    }
+    #contact .h-primary{
+        margin-top: 6vh;
+    }
+    #contact label{
+        font-size:1.2em;
+        margin-left: 6vw;
+    }
+    
+    #contact input{
+        font-size:1.2em;
+        width: 30vw;
+        margin-left: 6vw;
+    }
+
+    #contact label a{
+        font-size: 1.2em;
+    }
+    #contact button{
+        margin-top: 2 vh;
+        padding: 0;
+        padding-left:0.2em;
+        padding-right:0.2em;
+        font-size:1em;
+    
+    }
+        #faq .h-primary{
+        font-size: 2em;
+        margin-top: -69vh;
+        margin-left:55vw;
+    }
+    
+    #faq  li{
+        font-size:1.1em;
+        margin-left: 64vw;
+ 
+    }
+    
+    #contact textarea{
+        font-size: 1.2rem;
+        width: 30vw;
+        margin-left: 6vw;
+    }
+      #last{
+          margin-top: 30vh;
+          width: 99.8vw;
+      }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    #faq .h-primary{
+        font-size: 1.8em;
+        margin-top: 16vh;
+        margin-left:1vw;
+        margin-bottom: 4vh;
+    }
+    
+    #faq  li{
+        font-size:1em;
+        list-style: none;
+        display:block;
+        margin-left: 15vw;
+    }
+    #contact{
+        display:block;
+    }
+    #contact::before{
+        width: 99.8vw;
+        height: 205vh;
+        margin-top: -10vh;
+    }
+    #contact .h-primary{
+    font-size: 2.5em;
+        margin-top: 6vh;
+        margin-bottom:-6vh;
+    }
+    #contact label{
+        font-size: 1em;
+        margin-left: 23vw;
+        margin-top: 1vh;
+    }
+    
+    #contact input{
+        font-size: 1em;
+        width: 50vw;
+        margin-left: 23vw;
+    
+    }
+
+    #contact label a{
+        font-size: 1em;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        color: rgb(17, 16, 16);
+        overflow: hidden;
+       
+        text-decoration: none;
+    }
+    #contact img{
+        height:3vh;
+        width:3vh;
+        margin-bottom:-1vh;
+    
+    }
+    #contact button{
+        padding: 0;
+        padding-left:0.2em;
+        padding-right:0.2em;
+        font-size:1em;
+        height:8vh;
+        width: 20vw;
+        margin-left: 36vw;
+        margin-top: 2vh;
+    
+    }
+    #contact textarea{
+        font-size: 1em;
+        display: block;
+        width: 50vw;
+        margin-left: 23vw;
+    }
+      #last{
+          margin-top: 30vh;
+      }     
+}

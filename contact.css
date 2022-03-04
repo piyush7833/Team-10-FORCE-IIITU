@@ -8,7 +8,7 @@
 #faq .h-primary{
     font-size: 2.5em;
     /* display:inline-block; */
-    margin-top: -75vh;
+    margin-top: -85vh;
     margin-left:51vw;
 }
 
@@ -25,7 +25,7 @@
     position: absolute;
     background:url(img/cvcn.gif) no-repeat center center/cover;
     width: 99.8vw;
-    height: 165vh;
+    height: 175vh;
     z-index: -2;
     opacity: 0.4;
     margin-top: -10vh;
